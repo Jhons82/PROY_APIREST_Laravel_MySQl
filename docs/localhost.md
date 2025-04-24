@@ -30,9 +30,9 @@ http://127.0.0.1:8000/api/updateCategoria/4
 
 <!-- deleteCategoria (actualiza el estado = 0, pasando de activo = 1 a no_activo = 0) -->
 <!-- Aplicar el Método DELETE realiza la acción de eliminar el registro de la base de datos (no es recomendado), por lo que se aplica el Método PUT para alterar el estado -->
-PUT -> Body -> raw -> JSON
+DELETE -> Body -> raw -> JSON
 
-http://127.0.0.1:8000/api/updateCategoria/4
+http://127.0.0.1:8000/api/deleteCategoria/4
 
 {
     "estado": "0"
