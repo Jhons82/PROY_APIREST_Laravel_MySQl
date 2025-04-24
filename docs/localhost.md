@@ -28,8 +28,7 @@ http://127.0.0.1:8000/api/updateCategoria/4
     "cat_obs": "Update Postman Obs"
 }
 
-<!-- deleteCategoria (actualiza el estado = 0, pasando de activo = 1 a no_activo = 0) -->
-<!-- Aplicar el Método DELETE realiza la acción de eliminar el registro de la base de datos (no es recomendado), por lo que se aplica el Método PUT para alterar el estado -->
+<!-- deleteCategoria (actualiza el estado = 0, pasando de activo = 1 a no_activo = 0). Es recomendable actualizar el estado y no eliminar el registro de la base de datos -->
 DELETE -> Body -> raw -> JSON
 
 http://127.0.0.1:8000/api/deleteCategoria/4
